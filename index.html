@@ -20,54 +20,102 @@
   </head>
 
   <body>
-    <h1 class="heading">Frequently Asked Questions</h1>
+    <div class="heading">
+      <h1 class="heading__text">Frequently Asked Questions</h1>
+      <img src="./resources/faq-title-bg.svg" alt="background" />
+    </div>
     <p class="sub-heading">
       Products, Website or Brand Design, we’ve got you covered!
     </p>
     <p class="sub-heading_p">
       Give us your questions, and we can help you achieve our goals together!
     </p>
-    <button class="accordion">Section 1</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Overview')">
+        Overview
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Overview')">
+        Overview
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Brand Design')">
+        Brand Design
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Develop Website')">
+        Develop Website
+      </button>
     </div>
+    <h1>Accordion</h1>
 
-    <button class="accordion">Section 2</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
+    <div>
+      <div class="accordionItem">
+        <h2 class="accordionTitle">How does it work?</h2>
+        <div class="accordionContent">
+          <p>
+            Once you create an account, you can start by setting up your
+            workspace and choosing the tools you need. Our system integrates
+            your preferred design and development platforms, making
+            collaboration easy and seamless across your entire team.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordionItem">
+        <h2 class="accordionTitle">Which platform do you support?</h2>
+        <div class="accordionContent">
+          <p>
+            In a situational interview, the interviewer may ask how you overcame
+            a difficult situation and what you learned from it. You can use your
+            response to demonstrate your flexibility and share an example of how
+            you transformed a negative experience into a positive outcome
+          </p>
+        </div>
+      </div>
+
+      <div class="accordionItem">
+        <h2 class="accordionTitle">How do I invite my teammates?</h2>
+        <div class="accordionContent">
+          <p>
+            You can invite teammates directly from your dashboard by clicking on
+            “Team Settings” and selecting “Invite Members.” Simply enter their
+            email addresses, assign roles, and they’ll receive an invitation
+            link to join your workspace.
+          </p>
+        </div>
+      </div>
+      <div class="accordionItem">
+        Tab 4
+        <h2 class="accordionTitle">Do you have annual plan?</h2>
+        <div class="accordionContent">
+          <p>
+            Yes, we offer both monthly and annual subscription plans. Choosing
+            the annual plan saves you up to 20% compared to the monthly option
+            and includes priority support and early access to new features.
+          </p>
+        </div>
+      </div>
+      <div class="accordionItem">
+        <h2 class="accordionTitle">How to create new workspace</h2>
+        <div class="accordionContent">
+          <p>
+            To create a new workspace, navigate to your dashboard and click on
+            “Create Workspace.” From there, you can set a name, choose your
+            template, and configure access permissions. Each workspace can be
+            customized to fit different projects or teams.e
+          </p>
+        </div>
+      </div>
+      <div class="accordionItem">
+        <h2 class="accordionTitle">How do I Set Roles And Permissions?</h2>
+        <div class="accordionContent">
+          <p>
+            Roles and permissions can be managed from the “Team Settings”
+            section. You can assign roles like Admin, Editor, or Viewer to
+            control who can edit content, manage users, or view analytics. This
+            ensures that your workspace remains organized and secure.
+          </p>
+        </div>
+      </div>
     </div>
-
-    <button class="accordion">Section 3</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
-    </div>
-    <!-- 
-
-    Overview
-
-    Design System
-
-    Brand Design
-
-    Develop Webiste
-
-    How does it work?
-
-    Which platform do you support?
-
-    In a situational interview, the interviewer may ask how you overcame a difficult situation and what you learned from it. You can use your response to demonstrate your flexibility and share an example of how you transformed a negative experience into a positive outcome
-
-    How do I invite my teammates?
-
-    Collect the contact information of your teammates, including their email addresses or usernames on the platform you will use.
-
-    Do you have annual plan?
-
-    How to create new workspace
-
-    
-    -->
-
     <div class="author-info">
       Coded by <a href="https://github.com/Pauljd1/">Paul Davidson</a> |
       Challenge by
