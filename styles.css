@@ -48,6 +48,42 @@ body {
   margin-bottom: 3rem;
 }
 
+.accordion {
+  width: 100%;
+}
+
+.accordionItem {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.accordionTitle {
+  color: #cdd5e0;
+  margin-bottom: 1rem;
+  width: 900px;
+}
+
+.accordion-drop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown {
+  width: 30px;
+  margin-bottom: 0.7rem;
+}
+
+.accordionContent {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: left;
+  display: none;
+}
+
 button {
   font-size: 1.25rem;
   border: none;
